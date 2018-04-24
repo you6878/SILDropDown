@@ -7,12 +7,30 @@
 //
 
 import UIKit
+import DropDown
 
 class ViewController: UIViewController {
-
+    var dropDown:DropDown?
+    @IBOutlet weak var button: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        dropDown = DropDown()
+        
+        // The view to which the drop down will appear on
+        dropDown?.anchorView = button // UIView or UIBarButtonItem
+        dropDown?.bottomOffset = CGPoint(x: 0, y:(dropDown?.anchorView?.plainView.bounds.height)!)
+        
+        // The list of items to display. Can be changed dynamically
+        dropDown?.dataSource = ["Car", "Motorcycle", "Truck"]
         // Do any additional setup after loading the view, typically from a nib.
+        button.addTarget(self, action: #selector(dropDownButton), for: .touchUpInside)
+        dropDown?.selectionAction = { [unowned self] (index: Int, item: String) in
+            self.button.setTitle(item, for: .normal)
+        }
+        
+    }
+    @objc func dropDownButton(){
+        dropDown?.show()
     }
 
     override func didReceiveMemoryWarning() {

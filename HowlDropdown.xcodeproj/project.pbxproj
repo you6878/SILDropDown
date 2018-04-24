@@ -14,6 +14,9 @@
 		020AD8F6208F749700F8A48A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 020AD8F4208F749700F8A48A /* LaunchScreen.storyboard */; };
 		020AD901208F749700F8A48A /* HowlDropdownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020AD900208F749700F8A48A /* HowlDropdownTests.swift */; };
 		020AD90C208F749700F8A48A /* HowlDropdownUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020AD90B208F749700F8A48A /* HowlDropdownUITests.swift */; };
+		41170B6C4A566A921B73278F /* Pods_HowlDropdownUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B49A908C34DF8E557FB39B9 /* Pods_HowlDropdownUITests.framework */; };
+		8F8ADA0AA205A2AEA14D6DE7 /* Pods_HowlDropdown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2414CCD91E38ED0B02DCA86A /* Pods_HowlDropdown.framework */; };
+		A31727016A9B422D02CAEDBD /* Pods_HowlDropdownTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4238C66F4A1B6E9A46EC896 /* Pods_HowlDropdownTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,15 @@
 		020AD907208F749700F8A48A /* HowlDropdownUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowlDropdownUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		020AD90B208F749700F8A48A /* HowlDropdownUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowlDropdownUITests.swift; sourceTree = "<group>"; };
 		020AD90D208F749700F8A48A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2414CCD91E38ED0B02DCA86A /* Pods_HowlDropdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlDropdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		285437E7379F604629D0FAA9 /* Pods-HowlDropdown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlDropdown.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowlDropdown/Pods-HowlDropdown.release.xcconfig"; sourceTree = "<group>"; };
+		3ABAFD89D4E84F2CA17C7080 /* Pods-HowlDropdownTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlDropdownTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HowlDropdownTests/Pods-HowlDropdownTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D6CC7D8D54B0D2FA2F3CB6E /* Pods-HowlDropdownUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlDropdownUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowlDropdownUITests/Pods-HowlDropdownUITests.release.xcconfig"; sourceTree = "<group>"; };
+		436B0CFF521C33F978694A0E /* Pods-HowlDropdownUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlDropdownUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HowlDropdownUITests/Pods-HowlDropdownUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B49A908C34DF8E557FB39B9 /* Pods_HowlDropdownUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlDropdownUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A670EDCCFCCFFBAB3F6EBB76 /* Pods-HowlDropdown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlDropdown.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HowlDropdown/Pods-HowlDropdown.debug.xcconfig"; sourceTree = "<group>"; };
+		E776898D6A2B227FE76682C3 /* Pods-HowlDropdownTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HowlDropdownTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HowlDropdownTests/Pods-HowlDropdownTests.release.xcconfig"; sourceTree = "<group>"; };
+		F4238C66F4A1B6E9A46EC896 /* Pods_HowlDropdownTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HowlDropdownTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F8ADA0AA205A2AEA14D6DE7 /* Pods_HowlDropdown.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A31727016A9B422D02CAEDBD /* Pods_HowlDropdownTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41170B6C4A566A921B73278F /* Pods_HowlDropdownUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				020AD8FF208F749700F8A48A /* HowlDropdownTests */,
 				020AD90A208F749700F8A48A /* HowlDropdownUITests */,
 				020AD8E9208F749700F8A48A /* Products */,
+				E0AF194F759B86FEA25AE797 /* Pods */,
+				45E6F97C476F1B4F8CFB4ACE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = HowlDropdownUITests;
 			sourceTree = "<group>";
 		};
+		45E6F97C476F1B4F8CFB4ACE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2414CCD91E38ED0B02DCA86A /* Pods_HowlDropdown.framework */,
+				F4238C66F4A1B6E9A46EC896 /* Pods_HowlDropdownTests.framework */,
+				7B49A908C34DF8E557FB39B9 /* Pods_HowlDropdownUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0AF194F759B86FEA25AE797 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A670EDCCFCCFFBAB3F6EBB76 /* Pods-HowlDropdown.debug.xcconfig */,
+				285437E7379F604629D0FAA9 /* Pods-HowlDropdown.release.xcconfig */,
+				3ABAFD89D4E84F2CA17C7080 /* Pods-HowlDropdownTests.debug.xcconfig */,
+				E776898D6A2B227FE76682C3 /* Pods-HowlDropdownTests.release.xcconfig */,
+				436B0CFF521C33F978694A0E /* Pods-HowlDropdownUITests.debug.xcconfig */,
+				3D6CC7D8D54B0D2FA2F3CB6E /* Pods-HowlDropdownUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 020AD910208F749700F8A48A /* Build configuration list for PBXNativeTarget "HowlDropdown" */;
 			buildPhases = (
+				A53F65527E83DB1364F8FC11 /* [CP] Check Pods Manifest.lock */,
 				020AD8E4208F749700F8A48A /* Sources */,
 				020AD8E5208F749700F8A48A /* Frameworks */,
 				020AD8E6208F749700F8A48A /* Resources */,
+				E49120FE934F1D2B0084237C /* [CP] Embed Pods Frameworks */,
+				33DDF712B7E1FE156E6AAF9C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 020AD913208F749700F8A48A /* Build configuration list for PBXNativeTarget "HowlDropdownTests" */;
 			buildPhases = (
+				B172ADBF01D34AC9D0659851 /* [CP] Check Pods Manifest.lock */,
 				020AD8F8208F749700F8A48A /* Sources */,
 				020AD8F9208F749700F8A48A /* Frameworks */,
 				020AD8FA208F749700F8A48A /* Resources */,
+				8EB0DFEDB90587FF30CAE348 /* [CP] Embed Pods Frameworks */,
+				D98039B5E703346DF2777F40 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 020AD916208F749700F8A48A /* Build configuration list for PBXNativeTarget "HowlDropdownUITests" */;
 			buildPhases = (
+				70FD317D4A0E7A44A23D4D3E /* [CP] Check Pods Manifest.lock */,
 				020AD903208F749700F8A48A /* Sources */,
 				020AD904208F749700F8A48A /* Frameworks */,
 				020AD905208F749700F8A48A /* Resources */,
+				2FDD73627AD2AC1AF1284A5E /* [CP] Embed Pods Frameworks */,
+				5B2DF543A1CF8363865D8A27 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +302,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FDD73627AD2AC1AF1284A5E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowlDropdownUITests/Pods-HowlDropdownUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33DDF712B7E1FE156E6AAF9C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowlDropdown/Pods-HowlDropdown-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B2DF543A1CF8363865D8A27 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowlDropdownUITests/Pods-HowlDropdownUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70FD317D4A0E7A44A23D4D3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowlDropdownUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EB0DFEDB90587FF30CAE348 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowlDropdownTests/Pods-HowlDropdownTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A53F65527E83DB1364F8FC11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowlDropdown-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B172ADBF01D34AC9D0659851 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HowlDropdownTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D98039B5E703346DF2777F40 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowlDropdownTests/Pods-HowlDropdownTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E49120FE934F1D2B0084237C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HowlDropdown/Pods-HowlDropdown-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HowlDropdown/Pods-HowlDropdown-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		020AD8E4208F749700F8A48A /* Sources */ = {
@@ -424,6 +623,7 @@
 		};
 		020AD911208F749700F8A48A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A670EDCCFCCFFBAB3F6EBB76 /* Pods-HowlDropdown.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,6 +638,7 @@
 		};
 		020AD912208F749700F8A48A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 285437E7379F604629D0FAA9 /* Pods-HowlDropdown.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +653,7 @@
 		};
 		020AD914208F749700F8A48A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ABAFD89D4E84F2CA17C7080 /* Pods-HowlDropdownTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +670,7 @@
 		};
 		020AD915208F749700F8A48A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E776898D6A2B227FE76682C3 /* Pods-HowlDropdownTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +687,7 @@
 		};
 		020AD917208F749700F8A48A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 436B0CFF521C33F978694A0E /* Pods-HowlDropdownUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -499,6 +703,7 @@
 		};
 		020AD918208F749700F8A48A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D6CC7D8D54B0D2FA2F3CB6E /* Pods-HowlDropdownUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
